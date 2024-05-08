@@ -14,7 +14,7 @@
 ## Setting up project
 
 ```shell
-git clone git@github.com:fegno/passionbytes-django.git passionbytes
+git clone https://github.com/shilpasasidharan97/Vendor-managment.git
 ```
 
 use the below .env for development:
