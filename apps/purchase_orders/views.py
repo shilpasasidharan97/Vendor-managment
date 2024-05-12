@@ -23,4 +23,5 @@ class PurchaseOrderViewSet(viewsets.ModelViewSet):
         vendor = purchase_order.vendor
         recalculate_performance_metrics(vendor)
 
-        return Response({"message": "Purchase order acknowledged successfully"}, status=status.HTTP_200_OK)
+        return Response(
+            {"message": "Purchase order acknowledged successfully"}, status=status.HTTP_200_OK)

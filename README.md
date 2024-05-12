@@ -50,5 +50,16 @@ pip install -r requirements.txt
 
 database change :
 ```shell
+python manage.py migrate
+```
+
+runing project :
+```shell
 python manage.py runserver
+```
+
+API documentaion,
+This will return all the api endpoints in the project
+```browser
+http://127.0.0.1:8000/api/v1/
 ```

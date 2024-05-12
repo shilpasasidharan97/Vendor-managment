@@ -2,6 +2,7 @@ from django.urls import include, path
 from rest_framework.routers import DefaultRouter
 from .views import VendorViewSet
 
+app_name = 'vendor'
 
 router = DefaultRouter()
 router.register(r'vendors', VendorViewSet)

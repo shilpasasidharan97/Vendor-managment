@@ -18,7 +18,8 @@ class VendorViewSet(viewsets.ModelViewSet):
         vendor_code = request.data.get('vendor_code', None)
 
         if vendor_code is not None:
-            # If vendor_code is provided, proceed with the update including vendor_code
+            # If vendor_code is provided, proceed with the update including
+            # vendor_code
             return super().update(request, *args, **kwargs)
         else:
             # If vendor_code is not provided, remove it from the request data
